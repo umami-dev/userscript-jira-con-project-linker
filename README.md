@@ -1,3 +1,6 @@
+![image](https://github.com/umami-dev/userscript-jira-con-project-linker/assets/83455523/22a7d3ae-00f0-483d-800d-2d42092d8c15)
+
+
 # User Script Jira CON Project Linker
 Transform CON-XXXXX in to links for commit and pr titles
 
