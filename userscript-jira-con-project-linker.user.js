@@ -24,6 +24,7 @@
             }
         })
     }
+    transform()
     setInterval(transform, 2000) // for SPA
 
 })();
