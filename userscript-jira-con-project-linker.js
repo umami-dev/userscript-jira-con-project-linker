@@ -5,6 +5,8 @@
 // @description  try to take over the world!
 // @author       Shangwei Tsai
 // @match        https://github.com/umami-dev/*
+// @downloadURL  https://raw.githubusercontent.com/umami-dev/userscript-jira-con-project-linker/main/userscript-jira-con-project-linker.js
+// @updateURL    https://raw.githubusercontent.com/umami-dev/userscript-jira-con-project-linker/main/userscript-jira-con-project-linker.js
 // @icon         https://tripla.jp/favicon.ico
 // @grant        none
 // ==/UserScript==
