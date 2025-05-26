@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tripla CON project linker
 // @namespace    http://tampermonkey.net/
-// @version      2025-05-26.2
+// @version      2025-05-26-2
 // @description  try to take over the world!
 // @author       Shangwei Tsai
 // @match        https://github.com/umami-dev/*
