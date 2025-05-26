@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tripla CON project linker
 // @namespace    http://tampermonkey.net/
-// @version      2025-05-26.1
+// @version      2025-05-26.2
 // @description  try to take over the world!
 // @author       Shangwei Tsai
 // @match        https://github.com/umami-dev/*
@@ -14,7 +14,7 @@
 (function() {
     'use strict';
     const transform = () => {
-        document.querySelectorAll('.commit-title, .js-issue-title .extended-commit-description-container').forEach((elm) => {
+        document.querySelectorAll('.commit-title, .js-issue-title, .extended-commit-description-container').forEach((elm) => {
             if(!elm.dataset.triplaConProjectLinkTransformed) {
                 elm.innerHTML =  elm.innerHTML.replaceAll(/CON[-\s]\d+/ig, (raw) => { 
                     const formatted = raw.replace(/[-_\s]+/ig, '-')
