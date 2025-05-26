@@ -14,11 +14,11 @@
 (function() {
     'use strict';
     const transform = () => {
-        document.querySelectorAll('.commit-title, .js-issue-title').forEach((elm) => {
+        document.querySelectorAll('.commit-title, .js-issue-title .extended-commit-description-container').forEach((elm) => {
             if(!elm.dataset.triplaConProjectLinkTransformed) {
                 elm.innerHTML =  elm.innerHTML.replaceAll(/CON[-\s]\d+/ig, (raw) => { 
                     const formatted = raw.replace(/[-_\s]+/ig, '-')
-                    return `<a href='https://umami-me.atlassian.net/browse/${formatted}' target='_blank'>${raw}</a>`
+                    return `<a href='https://triplakk.atlassian.net/browse/${formatted}' target='_blank'>${raw}</a>`
                 })
                 elm.dataset.triplaConProjectLinkTransformed = 'done'
             }
